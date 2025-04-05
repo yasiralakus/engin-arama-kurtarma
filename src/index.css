@@ -364,8 +364,8 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .coded-by {
-    background-color: #000;
-    border-top: 1px dashed var(--apple);
+    background-color: var(--red);
+    border-top: 2px dashed var(--apple);
     padding: 12px 32px;
     & p {
         color: var(--apple);

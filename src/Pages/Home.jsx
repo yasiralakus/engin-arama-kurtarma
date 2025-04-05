@@ -126,7 +126,7 @@ export default function Home() {
                 <h2>Derneğin Adı ve Merkezi</h2>
                 <p><span></span>Derneğin Adı: “Engin Arama ve Kurtarma Derneği”dir.</p>
                 <p><span></span>Derneğin merkezi Malatya/Doğanşehir’dir. Şubesi açılmayacaktır.</p>
-                <p><span></span>Derneğin Kısa Adı: Engin A.K’dir.</p>
+                <p><span></span>Derneğin Kısa Adı: Engin A.K.’dir.</p>
 
                 <h2>Derneğin Amacı ve Faaliyet Alanı</h2>
                 <p>Dernek, yurt içinde ve yurt dışında iklim değişikliği kaynaklı afetler, her türlü afet, orman yangınları, sair arama kurtarma gerektiren tüm olay, kaza ve afet durumlarında bütünleşik afet yönetimi kapsamında ilgili makamlardan gerekli izinler alınmak şartıyla arama kurtarma, ilk yardım çalışmaları yapmak; bu amaçla faaliyet gösteren kişi ve kuruluşlara destek vermek amacıyla kurulmuştur.</p>
@@ -177,6 +177,7 @@ export default function Home() {
                 <h2>Son Hükümler</h2>
                 <p><span></span>Bu tüzük, 5253 sayılı Dernekler Kanunu ve ilgili mevzuat hükümlerine uygun olarak hazırlanmıştır.</p>
             </div>
+
 
 
         </>
