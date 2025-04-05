@@ -33,53 +33,53 @@ export default function Home() {
                 <div className="container">
                     <div className="item">
                         <img src="./images/yonetim-kurulu/nursel-gunay.jpg" alt="" />
-                        <h1>Nursel Günay</h1>
-                        <h2>Başkan</h2>
+                        <h3>Nursel Günay</h3>
+                        <h4>Başkan</h4>
                     </div>
                     <div className="item">
                         <img src="./images/user.jpg" alt="" />
-                        <h1>Birsen Günay</h1>
-                        <h2>Başkan Yardımcısı</h2>
+                        <h3>Birsen Günay</h3>
+                        <h4>Başkan Yardımcısı</h4>
                     </div>
                     <div className="item">
                         <img src="./images/yonetim-kurulu/cetin-demirkiran.jpg" alt="" />
-                        <h1>Çetin Demirkan</h1>
-                        <h2>Sekreter</h2>
+                        <h3>Çetin Demirkan</h3>
+                        <h4>Sekreter</h4>
                     </div>
                     <div className="item">
                         <img src="./images/user.jpg" alt="" />
-                        <h1>Mustafa Turan</h1>
-                        <h2>Sayman</h2>
+                        <h3>Mustafa Turan</h3>
+                        <h4>Sayman</h4>
                     </div>
                     <div className="item">
                         <img src="./images/user.jpg" alt="" />
-                        <h1>Haşim Çakmak</h1>
-                        <h2>Üye</h2>
+                        <h3>Haşim Çakmak</h3>
+                        <h4>Üye</h4>
                     </div>
                     <div className="item">
                         <img src="./images/user.jpg" alt="" />
-                        <h1>Günay Alpdoğan</h1>
-                        <h2>Üye</h2>
+                        <h3>Günay Alpdoğan</h3>
+                        <h4>Üye</h4>
                     </div>
                     <div className="item">
                         <img src="./images/user.jpg" alt="" />
-                        <h1>Ülkü İri</h1>
-                        <h2>Üye</h2>
+                        <h3>Ülkü İri</h3>
+                        <h4>Üye</h4>
                     </div>
                     <div className="item">
                         <img src="./images/user.jpg" alt="" />
-                        <h1>Selçuk Şahin</h1>
-                        <h2>Üye</h2>
+                        <h3>Selçuk Şahin</h3>
+                        <h4>Üye</h4>
                     </div>
                     <div className="item">
                         <img src="./images/user.jpg" alt="" />
-                        <h1>İsmihan Çakmak</h1>
-                        <h2>Üye</h2>
+                        <h3>İsmihan Çakmak</h3>
+                        <h4>Üye</h4>
                     </div>
                     <div className="item">
                         <img src="./images/user.jpg" alt="" />
-                        <h1>Hasan Günay</h1>
-                        <h2>Üye</h2>
+                        <h3>Hasan Günay</h3>
+                        <h4>Üye</h4>
                     </div>
                 </div>
             </div>
@@ -89,33 +89,33 @@ export default function Home() {
                 <div className="container">
                     <div className="item">
                         <img src="./images/yonetim-kurulu/turan-aykutlug.jpg" alt="" />
-                        <h1>Turan Aykutluğ</h1>
-                        <h2>Başkan</h2>
+                        <h3>Turan Aykutluğ</h3>
+                        <h4>Başkan</h4>
                     </div>
                     <div className="item">
                         <img src="./images/yonetim-kurulu/gulistan-demirkiran.jpg" alt="" />
-                        <h1>Gülistan Demirkan</h1>
-                        <h2>Üye</h2>
+                        <h3>Gülistan Demirkan</h3>
+                        <h4>Üye</h4>
                     </div>
                     <div className="item">
                         <img src="./images/user.jpg" alt="" />
-                        <h1>Fatma Tuncer</h1>
-                        <h2>Üye</h2>
+                        <h3>Fatma Tuncer</h3>
+                        <h4>Üye</h4>
                     </div>
                     <div className="item">
                         <img src="./images/user.jpg" alt="" />
-                        <h1>Ünal Karagöz</h1>
-                        <h2>Üye</h2>
+                        <h3>Ünal Karagöz</h3>
+                        <h4>Üye</h4>
                     </div>
                     <div className="item">
                         <img src="./images/user.jpg" alt="" />
-                        <h1>Hasan Bilgili</h1>
-                        <h2>Üye</h2>
+                        <h3>Hasan Bilgili</h3>
+                        <h4>Üye</h4>
                     </div>
                     <div className="item">
                         <img src="./images/user.jpg" alt="" />
-                        <h1>Zülbiye Sığırcı</h1>
-                        <h2>Üye</h2>
+                        <h3>Zülbiye Sığırcı</h3>
+                        <h4>Üye</h4>
                     </div>
                 </div>
             </div>
@@ -124,58 +124,58 @@ export default function Home() {
                 <h1>Engin Arama ve Kurtarma Derneği Tüzüğü</h1>
 
                 <h2>Derneğin Adı ve Merkezi</h2>
-                <p><span></span>Derneğin Adı: “Engin Arama ve Kurtarma Derneği”dir.</p>
-                <p><span></span>Derneğin merkezi Malatya/Doğanşehir’dir. Şubesi açılmayacaktır.</p>
-                <p><span></span>Derneğin Kısa Adı: Engin A.K.’dir.</p>
+                <p>Derneğin Adı: “Engin Arama ve Kurtarma Derneği”dir.</p>
+                <p>Derneğin merkezi Malatya/Doğanşehir’dir. Şubesi açılmayacaktır.</p>
+                <p>Derneğin Kısa Adı: Engin A.K.’dir.</p>
 
                 <h2>Derneğin Amacı ve Faaliyet Alanı</h2>
                 <p>Dernek, yurt içinde ve yurt dışında iklim değişikliği kaynaklı afetler, her türlü afet, orman yangınları, sair arama kurtarma gerektiren tüm olay, kaza ve afet durumlarında bütünleşik afet yönetimi kapsamında ilgili makamlardan gerekli izinler alınmak şartıyla arama kurtarma, ilk yardım çalışmaları yapmak; bu amaçla faaliyet gösteren kişi ve kuruluşlara destek vermek amacıyla kurulmuştur.</p>
 
                 <h2>Dernekçe Sürdürülecek Çalışma Konuları ve Biçimleri</h2>
-                <p><span></span>Faaliyetlerin etkinleştirilmesi ve geliştirilmesi için araştırmalar yapmak.</p>
-                <p><span></span>Seminer, konferans ve panel gibi eğitim çalışmaları düzenlemek.</p>
-                <p><span></span>Gerekli bilgi, belge, doküman ve yayınları temin etmek, dokümantasyon merkezi oluşturmak, yayınlar çıkarmak.</p>
-                <p><span></span>Sağlıklı bir çalışma ortamı sağlamak, her türlü teknik araç, gereç, demirbaş ve kırtasiye temin etmek.</p>
-                <p><span></span>Gerekli izinler alınmak şartıyla yardım toplama faaliyetleri ve bağış kabulü yapmak.</p>
-                <p><span></span>İktisadi, ticari ve sanayi işletmeler kurmak ve işletmek.</p>
-                <p><span></span>Üyeler için lokal ve tesisler kurmak, tefriş etmek.</p>
-                <p><span></span>Yemekli toplantılar, konser, balo, tiyatro, sergi, gezi vb. etkinlikler düzenlemek.</p>
-                <p><span></span>Taşınır, taşınmaz almak, satmak, kiralamak ve ayni hak tesis etmek.</p>
-                <p><span></span>Gerekli hallerde vakıf/federasyon kurmak veya katılmak.</p>
-                <p><span></span>Uluslararası faaliyette bulunmak, yurt dışı kuruluşlarla işbirliği yapmak.</p>
-                <p><span></span>Kamu kurumları ile ortak projeler yürütmek.</p>
-                <p><span></span>Sandık kurmak (yiyecek, kredi vb. ihtiyaçlar için).</p>
-                <p><span></span>Temsilcilikler açmak.</p>
-                <p><span></span>Platformlar oluşturmak.</p>
-                <p><span></span>Afet öncesi halkı ve gönüllüleri bilinçlendirme, gönüllü ekip oluşturma.</p>
-                <p><span></span>Kültürel ve doğal mirası koruma ve tanıtma çalışmaları yapmak.</p>
-                <p><span></span>Kurumlara arama kurtarma ve ilk yardım eğitimi/seminerleri vermek.</p>
-                <p><span></span>Yurt içi ve dışındaki kişi, kurum ve kuruluşlarla işbirliği yapmak, danışmanlık sunmak.</p>
-                <p><span></span>Gönüllülük esaslı, kar amacı gütmeyen bir şekilde bilinçlendirme çalışmaları yapmak.</p>
-                <p><span></span>İhbar sistemleri kurmak, operasyona yönelik planlamalar yapmak.</p>
-                <p><span></span>Haberleşme ağı oluşturmak.</p>
-                <p><span></span>Ekibi eğitimli kişilerden oluşturmak.</p>
-                <p><span></span>Operasyon hazırlıklarını (görevler, ekipman, iletişim, müdahale planları) belirlemek.</p>
-                <p><span></span>İzin ve bildirim süreçlerini yönetmek, rapor hazırlamak.</p>
-                <p><span></span>Yurt içi ve dışında kamu kurumları ile protokoller kapsamında afet yönetimine katkı sağlamak.</p>
+                <p>Faaliyetlerin etkinleştirilmesi ve geliştirilmesi için araştırmalar yapmak.</p>
+                <p>Seminer, konferans ve panel gibi eğitim çalışmaları düzenlemek.</p>
+                <p>Gerekli bilgi, belge, doküman ve yayınları temin etmek, dokümantasyon merkezi oluşturmak, yayınlar çıkarmak.</p>
+                <p>Sağlıklı bir çalışma ortamı sağlamak, her türlü teknik araç, gereç, demirbaş ve kırtasiye temin etmek.</p>
+                <p>Gerekli izinler alınmak şartıyla yardım toplama faaliyetleri ve bağış kabulü yapmak.</p>
+                <p>İktisadi, ticari ve sanayi işletmeler kurmak ve işletmek.</p>
+                <p>Üyeler için lokal ve tesisler kurmak, tefriş etmek.</p>
+                <p>Yemekli toplantılar, konser, balo, tiyatro, sergi, gezi vb. etkinlikler düzenlemek.</p>
+                <p>Taşınır, taşınmaz almak, satmak, kiralamak ve ayni hak tesis etmek.</p>
+                <p>Gerekli hallerde vakıf/federasyon kurmak veya katılmak.</p>
+                <p>Uluslararası faaliyette bulunmak, yurt dışı kuruluşlarla işbirliği yapmak.</p>
+                <p>Kamu kurumları ile ortak projeler yürütmek.</p>
+                <p>Sandık kurmak (yiyecek, kredi vb. ihtiyaçlar için).</p>
+                <p>Temsilcilikler açmak.</p>
+                <p>Platformlar oluşturmak.</p>
+                <p>Afet öncesi halkı ve gönüllüleri bilinçlendirme, gönüllü ekip oluşturma.</p>
+                <p>Kültürel ve doğal mirası koruma ve tanıtma çalışmaları yapmak.</p>
+                <p>Kurumlara arama kurtarma ve ilk yardım eğitimi/seminerleri vermek.</p>
+                <p>Yurt içi ve dışındaki kişi, kurum ve kuruluşlarla işbirliği yapmak, danışmanlık sunmak.</p>
+                <p>Gönüllülük esaslı, kar amacı gütmeyen bir şekilde bilinçlendirme çalışmaları yapmak.</p>
+                <p>İhbar sistemleri kurmak, operasyona yönelik planlamalar yapmak.</p>
+                <p>Haberleşme ağı oluşturmak.</p>
+                <p>Ekibi eğitimli kişilerden oluşturmak.</p>
+                <p>Operasyon hazırlıklarını (görevler, ekipman, iletişim, müdahale planları) belirlemek.</p>
+                <p>İzin ve bildirim süreçlerini yönetmek, rapor hazırlamak.</p>
+                <p>Yurt içi ve dışında kamu kurumları ile protokoller kapsamında afet yönetimine katkı sağlamak.</p>
 
                 <h2>Derneğin Gelir Kaynakları</h2>
-                <p><span></span>Üye aidatları</p>
-                <p><span></span>Bağış ve yardımlar</p>
-                <p><span></span>Organizasyonlardan elde edilen gelirler</p>
-                <p><span></span>Resmi kurumlardan sağlanan destekler</p>
-                <p><span></span>Diğer yasal gelirler</p>
+                <p>Üye aidatları</p>
+                <p>Bağış ve yardımlar</p>
+                <p>Organizasyonlardan elde edilen gelirler</p>
+                <p>Resmi kurumlardan sağlanan destekler</p>
+                <p>Diğer yasal gelirler</p>
 
                 <h2>Derneğin Organları</h2>
-                <p><span></span>Genel Kurul</p>
-                <p><span></span>Yönetim Kurulu</p>
-                <p><span></span>Denetim Kurulu</p>
+                <p>Genel Kurul</p>
+                <p>Yönetim Kurulu</p>
+                <p>Denetim Kurulu</p>
 
                 <h2>Tüzük Değişikliği ve Fesih</h2>
-                <p><span></span>Tüzüğün değiştirilmesi veya derneğin feshi, Genel Kurul’un 2/3 çoğunluğunun kararı ile mümkündür.</p>
+                <p>Tüzüğün değiştirilmesi veya derneğin feshi, Genel Kurul’un 2/3 çoğunluğunun kararı ile mümkündür.</p>
 
                 <h2>Son Hükümler</h2>
-                <p><span></span>Bu tüzük, 5253 sayılı Dernekler Kanunu ve ilgili mevzuat hükümlerine uygun olarak hazırlanmıştır.</p>
+                <p>Bu tüzük, 5253 sayılı Dernekler Kanunu ve ilgili mevzuat hükümlerine uygun olarak hazırlanmıştır.</p>
             </div>
 
 

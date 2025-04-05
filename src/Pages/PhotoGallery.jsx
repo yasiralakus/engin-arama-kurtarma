@@ -18,6 +18,20 @@ export default function PhotoGallery() {
           }}
         modules={[Autoplay]}
         className="mySwiper"
+        breakpoints={{
+            0: {
+              slidesPerView: 1,
+            },
+            640: {
+              slidesPerView: 2,
+            },
+            800: {
+              slidesPerView: 3,
+            },
+            1100: {
+              slidesPerView: 4,
+            },
+          }}
       >
         <SwiperSlide className='photo-gallery-item'>
             <img src="./images/photo-gallery/wp1.jpg" alt="" />

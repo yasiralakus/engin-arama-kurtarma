@@ -4,6 +4,7 @@ import { Link, NavLink, Outlet } from "react-router-dom";
 export default function App() {
 
     const [time, setTime] = useState(new Date());
+    const [openMenu, setOpenMenu] = useState(false);
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -41,6 +42,12 @@ export default function App() {
                     <h1>Engin Arama ve Kurtarma Derneği</h1>
                 </div>
 
+                <button className="mobile-menu-btn" onClick={() => (openMenu === false ? setOpenMenu(true) : setOpenMenu(false))}>
+                    <span style={openMenu === true ? {transform: 'rotate(45deg) translateX(7px) translateY(5px)', backgroundColor: '#D32F2F'} : {}}></span>
+                    <span style={openMenu === true ? {opacity: '0'} : {}}></span>
+                    <span style={openMenu === true ? {transform: 'rotate(135deg) translateX(-6px) translateY(5px)', backgroundColor: '#D32F2F'} : {}}></span>
+                </button>
+
                 <ul className="nav">
                     <li>
                         <NavLink to={'/'}>Hakkımızda</NavLink>
@@ -58,6 +65,24 @@ export default function App() {
                         <NavLink to={'/iletisim'}>İletişim</NavLink>
                     </li>
                     <span></span>
+                    <li>
+                        <Link to={'/bagis-yap'} className="donate-link">Bağış Yap</Link>
+                    </li>
+                </ul>
+
+                <ul style={openMenu ? { right: '0' } : { right: '-100%' }} className="mobile-nav">
+                    <li>
+                        <NavLink to={'/'}>Hakkımızda</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to={'/medya'}>Medya</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to={'/ekiplerimiz'}>Ekiplerimiz</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to={'/iletisim'}>İletişim</NavLink>
+                    </li>
                     <li>
                         <Link to={'/bagis-yap'} className="donate-link">Bağış Yap</Link>
                     </li>
