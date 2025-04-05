@@ -122,37 +122,63 @@ export default function Home() {
 
             <div className="home-content">
                 <h1>Engin Arama ve Kurtarma Derneği Tüzüğü</h1>
+
                 <h2>Derneğin Adı ve Merkezi</h2>
-                <p><span></span>Derneğin adı "Engin Arama ve Kurtarma Derneği"dir. Derneğin merkezi Malatya/Doğanşehir’dedir. Şube açılmayacaktır.</p>
+                <p><span></span>Derneğin Adı: “Engin Arama ve Kurtarma Derneği”dir.</p>
+                <p><span></span>Derneğin merkezi Malatya/Doğanşehir’dir. Şubesi açılmayacaktır.</p>
+                <p><span></span>Derneğin Kısa Adı: Engin A.K’dir.</p>
+
                 <h2>Derneğin Amacı ve Faaliyet Alanı</h2>
-                <p><span></span>Dernek, yurt içinde ve yurt dışında arama kurtarma gerektiren olaylarda faaliyet göstermek amacıyla kurulmuştur.</p>
+                <p>Dernek, yurt içinde ve yurt dışında iklim değişikliği kaynaklı afetler, her türlü afet, orman yangınları, sair arama kurtarma gerektiren tüm olay, kaza ve afet durumlarında bütünleşik afet yönetimi kapsamında ilgili makamlardan gerekli izinler alınmak şartıyla arama kurtarma, ilk yardım çalışmaları yapmak; bu amaçla faaliyet gösteren kişi ve kuruluşlara destek vermek amacıyla kurulmuştur.</p>
+
                 <h2>Dernekçe Sürdürülecek Çalışma Konuları ve Biçimleri</h2>
                 <p><span></span>Faaliyetlerin etkinleştirilmesi ve geliştirilmesi için araştırmalar yapmak.</p>
                 <p><span></span>Seminer, konferans ve panel gibi eğitim çalışmaları düzenlemek.</p>
-                <p><span></span>Bilgi, belge ve dokümanlar sağlamak, arşiv oluşturmak.</p>
-                <p><span></span>Sağlıklı bir çalışma ortamı sağlamak için her türlü teknik araç ve malzemeyi temin etmek.</p>
-                <p><span></span>Gerekli izinleri almak şartıyla yardım toplama faaliyetlerinde bulunmak.</p>
-                <p><span></span>İktisadi, ticari ve sınai işletmeler kurmak ve işletmek.</p>
-                <p><span></span>Üyeler için tesisler kurmak.</p>
-                <p><span></span>Sosyal ve kültürel etkinlikler düzenlemek.</p>
-                <p><span></span>Taşınmaz edinmek, kiralamak veya kullanmak.</p>
-                <p><span></span>Federasyonlara katılmak veya federasyon kurmak.</p>
-                <p><span></span>Uluslararası faaliyetlerde bulunmak.</p>
+                <p><span></span>Gerekli bilgi, belge, doküman ve yayınları temin etmek, dokümantasyon merkezi oluşturmak, yayınlar çıkarmak.</p>
+                <p><span></span>Sağlıklı bir çalışma ortamı sağlamak, her türlü teknik araç, gereç, demirbaş ve kırtasiye temin etmek.</p>
+                <p><span></span>Gerekli izinler alınmak şartıyla yardım toplama faaliyetleri ve bağış kabulü yapmak.</p>
+                <p><span></span>İktisadi, ticari ve sanayi işletmeler kurmak ve işletmek.</p>
+                <p><span></span>Üyeler için lokal ve tesisler kurmak, tefriş etmek.</p>
+                <p><span></span>Yemekli toplantılar, konser, balo, tiyatro, sergi, gezi vb. etkinlikler düzenlemek.</p>
+                <p><span></span>Taşınır, taşınmaz almak, satmak, kiralamak ve ayni hak tesis etmek.</p>
+                <p><span></span>Gerekli hallerde vakıf/federasyon kurmak veya katılmak.</p>
+                <p><span></span>Uluslararası faaliyette bulunmak, yurt dışı kuruluşlarla işbirliği yapmak.</p>
+                <p><span></span>Kamu kurumları ile ortak projeler yürütmek.</p>
+                <p><span></span>Sandık kurmak (yiyecek, kredi vb. ihtiyaçlar için).</p>
+                <p><span></span>Temsilcilikler açmak.</p>
+                <p><span></span>Platformlar oluşturmak.</p>
+                <p><span></span>Afet öncesi halkı ve gönüllüleri bilinçlendirme, gönüllü ekip oluşturma.</p>
+                <p><span></span>Kültürel ve doğal mirası koruma ve tanıtma çalışmaları yapmak.</p>
+                <p><span></span>Kurumlara arama kurtarma ve ilk yardım eğitimi/seminerleri vermek.</p>
+                <p><span></span>Yurt içi ve dışındaki kişi, kurum ve kuruluşlarla işbirliği yapmak, danışmanlık sunmak.</p>
+                <p><span></span>Gönüllülük esaslı, kar amacı gütmeyen bir şekilde bilinçlendirme çalışmaları yapmak.</p>
+                <p><span></span>İhbar sistemleri kurmak, operasyona yönelik planlamalar yapmak.</p>
+                <p><span></span>Haberleşme ağı oluşturmak.</p>
+                <p><span></span>Ekibi eğitimli kişilerden oluşturmak.</p>
+                <p><span></span>Operasyon hazırlıklarını (görevler, ekipman, iletişim, müdahale planları) belirlemek.</p>
+                <p><span></span>İzin ve bildirim süreçlerini yönetmek, rapor hazırlamak.</p>
+                <p><span></span>Yurt içi ve dışında kamu kurumları ile protokoller kapsamında afet yönetimine katkı sağlamak.</p>
+
                 <h2>Derneğin Gelir Kaynakları</h2>
                 <p><span></span>Üye aidatları</p>
                 <p><span></span>Bağış ve yardımlar</p>
                 <p><span></span>Organizasyonlardan elde edilen gelirler</p>
                 <p><span></span>Resmi kurumlardan sağlanan destekler</p>
                 <p><span></span>Diğer yasal gelirler</p>
+
                 <h2>Derneğin Organları</h2>
                 <p><span></span>Genel Kurul</p>
                 <p><span></span>Yönetim Kurulu</p>
                 <p><span></span>Denetim Kurulu</p>
+
                 <h2>Tüzük Değişikliği ve Fesih</h2>
                 <p><span></span>Tüzüğün değiştirilmesi veya derneğin feshi, Genel Kurul’un 2/3 çoğunluğunun kararı ile mümkündür.</p>
+
                 <h2>Son Hükümler</h2>
                 <p><span></span>Bu tüzük, 5253 sayılı Dernekler Kanunu ve ilgili mevzuat hükümlerine uygun olarak hazırlanmıştır.</p>
             </div>
+
+
         </>
     )
 }

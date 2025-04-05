@@ -1,3 +1,5 @@
+import PhotoGallery from "./PhotoGallery";
+
 export default function Media() {
 
     return (
@@ -10,8 +12,9 @@ export default function Media() {
                 <img src="./images/hero.jpg" alt="" />
             </div>
 
-            <div className="soon">
-                <h1>Yakında...</h1>
+            <div className="media-page">
+                <h1>Foto Galeri</h1>
+                <PhotoGallery />
             </div>
         </>
     )

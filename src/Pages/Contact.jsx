@@ -15,11 +15,11 @@ export default function Contact() {
 
             <div className="contact-page">
                 <h1>Sosyal Medya Hesaplarımız;</h1>
-                <h2>Bizi <Link>X</Link>'den takip edin!</h2>
-                <h2>Bizi <Link>Instagram</Link>'dan takip edin!</h2>
-                <h2>Bizi <Link>Youtube</Link>'dan takip edin!</h2>
-                <h2><Link>WhatsApp</Link> kanalımıza katılın!</h2>
-                <h2>Bize <Link>mail</Link> gönderin!</h2>
+                <h2>Bizi <Link target="_blank" rel="noopener noreferrer" to={'https://www.x.com/44Engin_A_K_D'}>X</Link>'den takip edin!</h2>
+                <h2>Bizi <Link target="_blank" rel="noopener noreferrer" to={'https://www.instagram.com/engin.arama.kurtarma.44'}>Instagram</Link>'dan takip edin!</h2>
+                <h2>Bizi <Link target="_blank" rel="noopener noreferrer" to={'https://www.youtube.com/@enginaramavekurtarmadernegi'}>Youtube</Link>'dan takip edin!</h2>
+                <h2><Link target="_blank" rel="noopener noreferrer" to={'https://www.whatsapp.com/channel/0029Vb4WAYDDuMRez2q1CK0U'}>WhatsApp</Link> kanalımıza katılın!</h2>
+                <h2>Bize <Link target="_blank" rel="noopener noreferrer" to={'mailto:engin.arama.kurtarma.44@gmail.com'}>mail</Link> gönderin!</h2>
             </div>
 
             <div className="contact-page">
