@@ -32,7 +32,7 @@ export default function Home() {
                 <h1>Yönetim Kurulu</h1>
                 <div className="container">
                     <div className="item">
-                        <img src="./images/user.jpg" alt="" />
+                        <img src="./images/yonetim-kurulu/nursel-gunay.jpg" alt="" />
                         <h1>Nursel Günay</h1>
                         <h2>Başkan</h2>
                     </div>
@@ -42,7 +42,7 @@ export default function Home() {
                         <h2>Başkan Yardımcısı</h2>
                     </div>
                     <div className="item">
-                        <img src="./images/user.jpg" alt="" />
+                        <img src="./images/yonetim-kurulu/cetin-demirkiran.jpg" alt="" />
                         <h1>Çetin Demirkan</h1>
                         <h2>Sekreter</h2>
                     </div>
@@ -88,12 +88,12 @@ export default function Home() {
                 <h1>Denetim Kurulu</h1>
                 <div className="container">
                     <div className="item">
-                        <img src="./images/user.jpg" alt="" />
+                        <img src="./images/yonetim-kurulu/turan-aykutlug.jpg" alt="" />
                         <h1>Turan Aykutluğ</h1>
                         <h2>Başkan</h2>
                     </div>
                     <div className="item">
-                        <img src="./images/user.jpg" alt="" />
+                        <img src="./images/yonetim-kurulu/gulistan-demirkiran.jpg" alt="" />
                         <h1>Gülistan Demirkan</h1>
                         <h2>Üye</h2>
                     </div>

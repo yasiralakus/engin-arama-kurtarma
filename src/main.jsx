@@ -8,6 +8,7 @@ import Media from './Pages/Media.jsx'
 import Teams from './Pages/Teams.jsx'
 import Contact from './Pages/Contact.jsx'
 import Donate from './Pages/Donate.jsx'
+import 'leaflet/dist/leaflet.css';
 
 const router = createBrowserRouter([
     {

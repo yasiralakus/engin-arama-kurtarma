@@ -19,19 +19,19 @@ export default function App() {
             <ul className="top-links">
                 <p>{time.toLocaleDateString("tr-TR")} - {time.toLocaleTimeString("tr-TR", { hour: "2-digit", minute: "2-digit" })}</p>
                 <li>
-                    <Link><i className="fa-brands fa-youtube"></i></Link>
+                    <Link target="_blank" rel="noopener noreferrer" to={'https://www.youtube.com/@enginaramavekurtarmadernegi'}><i className="fa-brands fa-youtube"></i></Link>
                 </li>
                 <li>
-                    <Link><i className="fa-brands fa-x-twitter"></i></Link>
+                    <Link target="_blank" rel="noopener noreferrer" to={'https://www.x.com/44Engin_A_K_D'}><i className="fa-brands fa-x-twitter"></i></Link>
                 </li>
                 <li>
-                    <Link><i className="fa-brands fa-instagram"></i></Link>
+                    <Link target="_blank" rel="noopener noreferrer" to={'https://www.instagram.com/engin.arama.kurtarma.44'}><i className="fa-brands fa-instagram"></i></Link>
                 </li>
                 <li>
-                    <Link><i className="fa-brands fa-whatsapp"></i></Link>
+                    <Link target="_blank" rel="noopener noreferrer" to={'https://www.whatsapp.com/channel/0029Vb4WAYDDuMRez2q1CK0U'}><i className="fa-brands fa-whatsapp"></i></Link>
                 </li>
                 <li>
-                    <Link><i className="fa-solid fa-envelope"></i></Link>
+                    <Link target="_blank" rel="noopener noreferrer" to={'mailto:engin.arama.kurtarma.44@gmail.com'}><i className="fa-solid fa-envelope"></i></Link>
                 </li>
             </ul>
 
@@ -68,7 +68,23 @@ export default function App() {
             <Outlet />
 
             <footer className="footer">
-                <p><Link to={'https://www.yasiralakus.com.tr'}>yasiralakus</Link> tarafından kodlanmıştır.</p>
+                <ul className="top-links">
+                    <li>
+                        <Link target="_blank" rel="noopener noreferrer" to={'https://www.youtube.com/@enginaramavekurtarmadernegi'}><i className="fa-brands fa-youtube"></i></Link>
+                    </li>
+                    <li>
+                        <Link target="_blank" rel="noopener noreferrer" to={'https://www.x.com/44Engin_A_K_D'}><i className="fa-brands fa-x-twitter"></i></Link>
+                    </li>
+                    <li>
+                        <Link target="_blank" rel="noopener noreferrer" to={'https://www.instagram.com/engin.arama.kurtarma.44'}><i className="fa-brands fa-instagram"></i></Link>
+                    </li>
+                    <li>
+                        <Link target="_blank" rel="noopener noreferrer" to={'https://www.whatsapp.com/channel/0029Vb4WAYDDuMRez2q1CK0U'}><i className="fa-brands fa-whatsapp"></i></Link>
+                    </li>
+                    <li>
+                        <Link target="_blank" rel="noopener noreferrer" to={'mailto:engin.arama.kurtarma.44@gmail.com'}><i className="fa-solid fa-envelope"></i></Link>
+                    </li>
+                </ul>
                 <ul>
                     <li>
                         <Link to={'/'}>Hakkımızda</Link>
@@ -87,6 +103,10 @@ export default function App() {
                     </li>
                 </ul>
             </footer>
+
+            <div className="coded-by">
+                <p><Link target="_blank" rel="noopener noreferrer" to={'https://www.yasiralakus.com.tr'}>yasiralakus</Link> tarafından kodlanmıştır.</p>
+            </div>
 
         </div>
     )
